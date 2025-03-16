@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+}
+
 .bg-dark {
   background-color: #000000 !important;
+}
+
+.title {
+  background: linear-gradient(135deg, #1a1a1a, #6d6a6a);
+  color: #fff;
+  padding: 100px 0;
+  flex:1;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.contact-info {
+  background-color: #000;
+  background-image: url('img/wechat.jpg');
+  background-repeat:no-repeat;
+  background-position: right; 
+  background-size: 300px auto;
+  padding: 80px 0;
+  color: #fff;
 }
