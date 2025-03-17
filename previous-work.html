@@ -4,20 +4,156 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zhihao Wang website - previous-work</title>
+    <title>Zhihao Wang website - Previous Work</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="home.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="loader.js"></script>
+    <script src="loader.js" defer></script>
   </head>
-  <body>
+  <body class="previous-work">
     <div id="navbar-placeholder"></div>
+    <main class="py-5">
+      <div class="container">
+        <h2 class="mb-4 text-center">Previous Work & Experience</h2>
 
-    <main>
-
+        <div class="accordion" id="previousWorkAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEducation">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEducation"
+                aria-expanded="true"
+                aria-controls="collapseEducation"
+              >
+                Education
+              </button>
+            </h2>
+            <div
+              id="collapseEducation"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingEducation"
+              data-bs-parent="#previousWorkAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  <strong>Portland State University, Portland, OR</strong>
+                </p>
+                <p>
+                  Pursuing Bachelor of Science in Computer Science, Expected Graduation: June 2025
+                </p>
+                <p>
+                  Academic Honors: Dean's List (4 semesters) | Current GPA: 3.68
+                </p>
+                <p>
+                  Relevant Courses: CS 486 (Database Management), CS 441 (Artificial Intelligence),
+                  CS 410P (Music, Sound & Computers), CS 466 (Voice Assistants),
+                  MTH344 (Intro Group Theory - Applied), CS 491 (Intro to Computer Security),
+                  CS 457 (Functional Programming)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingWork">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWork"
+                aria-expanded="false"
+                aria-controls="collapseWork"
+              >
+                Work Experience
+              </button>
+            </h2>
+            <div
+              id="collapseWork"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingWork"
+              data-bs-parent="#previousWorkAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  <strong>Capstone Project:</strong> Currently working on an electric vehicle charging simulator.
+                  Responsibilities include front-end development and parts of back-end work (such as route registration and endpoint creation).
+                </p>
+                <p>
+                  <strong>Part-time Experience:</strong> Worked in a courier warehouse using a warehouse management system,
+                  which enhanced my teamwork and operational skills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTech">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTech"
+                aria-expanded="false"
+                aria-controls="collapseTech"
+              >
+                Technology Summary
+              </button>
+            </h2>
+            <div
+              id="collapseTech"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTech"
+              data-bs-parent="#previousWorkAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  <strong>Expert Skill Level:</strong> Visual Studio, Visual Studio Code, Windows
+                </p>
+                <p>
+                  <strong>Intermediate Skill Level:</strong> Python, C++, MySQL, Linux, GitHub, Google DialogFlow, ChatGPT, windsurf, Google Cloud Console
+                </p>
+                <p>
+                  <strong>Basic Skill Level:</strong> AWS, JavaScript, Docker
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOther">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOther"
+                aria-expanded="false"
+                aria-controls="collapseOther"
+              >
+                Other Information
+              </button>
+            </h2>
+            <div
+              id="collapseOther"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOther"
+              data-bs-parent="#previousWorkAccordion"
+            >
+              <div class="accordion-body">
+                <p>
+                  I am very interested in computer security and plan to enroll in related courses throughout my studies.
+                  Although my background in security is limited at the moment, I am committed to quickly mastering the necessary skills.
+                </p>
+                <p>
+                  I am also passionate about video games and have participated in community competitions for Apex Legends.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <div id="footer-placeholder"></div>
   </body>
 </html>

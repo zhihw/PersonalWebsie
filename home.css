@@ -1,14 +1,19 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  background-color: #000; 
 }
 
-#footer-placeholder {
-  background: url('img/footer.jpg') no-repeat center center;
-  background-size: cover;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+  flex: 1;
+}
 
 .bg-dark {
   background-color: #000000 !important;
@@ -18,25 +23,35 @@ body {
   background: linear-gradient(135deg, #1a1a1a, #6d6a6a);
   color: #fff;
   padding: 100px 0;
-  flex:1;
 }
 
 .about {
   background: linear-gradient(135deg, #e3e2e2, #6d6d6d);
 }
 
+.about .container {
+  padding: 1.5rem;
+  border-top: 2px solid #2b2b2b; 
+  border-bottom: 2px solid #2b2b2b;
+}
+
 .contact-info {
   background-color: #000;
   background-image: url('img/wechat.jpg');
-  background-repeat:no-repeat;
-  background-position: right; 
+  background-repeat: no-repeat;
+  background-position: right;
   background-size: 300px auto;
   padding: 80px 0;
   color: #fff;
 }
 
-.about .container {
-  padding: 1.5rem;
-  border-top: 2px solid #2b2b2b; 
-  border-bottom: 2px solid #2b2b2b;
+
+#footer-placeholder {
+  background: url('img/footer.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
+body.previous-work {
+  background-color: #fff; 
 }
