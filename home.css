@@ -20,14 +20,14 @@ main {
   background-color: #000000 !important;
 }
 
+.introduce {
+  background: linear-gradient(135deg, #e3e2e2, #6d6d6d);
+}
+
 .title {
   background: linear-gradient(135deg, #1a1a1a, #6d6a6a);
   color: #fff;
   padding: 100px 0;
-}
-
-.about {
-  background: linear-gradient(135deg, #e3e2e2, #6d6d6d);
 }
 
 .about .container {
@@ -59,8 +59,16 @@ body.projects-page {
   background-color: #fff;
 }
 
+body.about-page {
+  background-color: #fff;
+}
+
 .carousel-item img {
   height: 300px;
   object-fit: contain;
   width: 100%;
+}
+
+body.contact-page {
+  background-color: #fff;
 }
