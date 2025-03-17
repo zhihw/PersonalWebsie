@@ -64,4 +64,6 @@ There are two recommended ways to view and test this site:
    - Accordion: [https://getbootstrap.com/docs/5.0/components/accordion/](https://getbootstrap.com/docs/5.0/components/accordion/)  
    - Carousel: [https://getbootstrap.com/docs/5.0/components/carousel/](https://getbootstrap.com/docs/5.0/components/carousel/)
 
+4. **Contact information using mailto: & tel:**
+   - [https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/](https://www.geeksforgeeks.org/how-to-create-mail-and-phone-link-in-html/)
 ---

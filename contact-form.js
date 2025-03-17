@@ -9,7 +9,7 @@ function contactFormHandler() {
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
 
-    if (!firstName || !lastName || !email || !message) {
+    if (!firstName || !lastName || !email) {
       console.log("Please fill in all required fields.");
       return;
     }
