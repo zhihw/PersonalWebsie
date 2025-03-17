@@ -4,6 +4,12 @@ body {
   background-color: #000; 
 }
 
+#footer-placeholder {
+  background: url('img/footer.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+
 .bg-dark {
   background-color: #000000 !important;
 }
@@ -16,7 +22,7 @@ body {
 }
 
 .about {
-  background-color: #fff;
+  background: linear-gradient(135deg, #e3e2e2, #6d6d6d);
 }
 
 .contact-info {
@@ -27,4 +33,10 @@ body {
   background-size: 300px auto;
   padding: 80px 0;
   color: #fff;
+}
+
+.about .container {
+  padding: 1.5rem;
+  border-top: 2px solid #2b2b2b; 
+  border-bottom: 2px solid #2b2b2b;
 }
